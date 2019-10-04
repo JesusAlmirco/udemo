@@ -1,2 +1,36 @@
-<h1>Pages#location</h1>
-<p>Find me in app/views/pages/location.html.erb</p>
+<h2>Location</h2>
+
+<div class="card z-depth-4">
+  <div class="card-content black-text">
+    <div class="row">
+      <div class="col m6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.102230116283!2d144.9611140153187!3d-37.811074379752945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642cabe425ef5%3A0x3f13671f1888b391!2s100%20SQUARED!5e0!3m2!1ses-419!2spe!4v1570225422946!5m2!1ses-419!2spe" width="450" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      </div>
+      <hr>
+      <hr>
+      <div class="col m6">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">phone</i>
+          <input id="icon_telephone" type="tel" class="validate">
+          <label for="icon_telephone">Telephone</label>
+        </div>
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+           <i class="material-icons right">send</i>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
