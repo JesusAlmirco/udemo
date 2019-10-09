@@ -1,5 +1,6 @@
 class PagesController < ApplicationController
   def home
+    @courses = Cource.all
   end
 
   def about

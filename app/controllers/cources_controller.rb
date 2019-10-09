@@ -69,6 +69,6 @@ class CourcesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def cource_params
-      params.require(:cource).permit(:image, :video, :title, :star, :description)
+      params.require(:cource).permit(:image, :video, :title, :star, :description, :public)
     end
 end
